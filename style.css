@@ -7,9 +7,10 @@
     overflow-x: hidden;
     overflow-y: hidden;
     
-    
+    padding: 50px;
 }
 .container{
+    padding: 15px 20px 20px 20px;
     
     background-color: black;
     color: white;
@@ -21,7 +22,9 @@
     background-color:white ;
     color: black;
     height: 40%;
-    width: 23%;
+    width: 22%;
+    align-items: center;
+    
     
     
 }
@@ -29,12 +32,60 @@ h1{
     /* margin-top: 50px 50px 50px 50px; */
     
     display: flex;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
 
 }
-.div::first-line{
-    color: black;
-    font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: underline;
+.p{
+    font-size: large;
+    font-weight: 500;
+    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.class{
+    columns: 0;
+    column-gap: 30px;
+    width: 60%;
+    margin-left: 0;
 
+}
+.web{
+    font-size: larger;
+    font-weight: 600;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#price{
+    background-color: wheat;
+    height: 20px;
+    width: 60px;
+    box-shadow: none;
+    align-items: center;
+    text-align: center;
+
+}
+#offer{
+    background-color: aqua;
+    height: 20px;
+    width: 60px;
+    box-shadow: 20px;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+}
+#offerprice{
+    text-decoration: line-through;
+    background-color: wheat;
+    height: 20px;
+    width: 60px;
+    box-shadow: none;
+    align-items: center;
+    text-align: center;
+    
 }
