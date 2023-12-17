@@ -1,0 +1,40 @@
+
+.wrapper{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    
+}
+.container{
+    
+    background-color: black;
+    color: white;
+    height: 100%;
+   
+}
+.card{
+    padding: 20px 20px 20px 20px;
+    background-color:white ;
+    color: black;
+    height: 40%;
+    width: 23%;
+    
+    
+}
+h1{
+    /* margin-top: 50px 50px 50px 50px; */
+    
+    display: flex;
+
+}
+.div::first-line{
+    color: black;
+    font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
